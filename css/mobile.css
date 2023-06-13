@@ -1,0 +1,12 @@
+:root {
+  --main-color: #199cdb;
+  --grey-color: #343a40;
+  --background-color: #f1f3f5;
+  --accent-color: #d6c08d;
+}
+@media screen and (max-width: 575px) {
+  .border-b-custom {
+    border: none !important;
+    border-bottom: 2px solid var(--accent-color) !important;
+  }
+}
